@@ -1,0 +1,72 @@
+### 用户特定屏蔽 ###
+# 屏蔽数据和输出文件夹
+data/
+output/
+
+### Python 核心 ###
+# 屏蔽字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 屏蔽 C 扩展文件
+*.so
+
+### 虚拟环境 ###
+# 屏蔽项目中的虚拟环境文件夹
+.venv/
+venv/
+ENV/
+env/
+
+### 编译/分发 ###
+# 如果后续打包项目，屏蔽这些生成的目录
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### PyCharm/IntelliJ IDE ###
+# 屏蔽 PyCharm 配置文件
+.idea/
+*.iml
+*.iws
+
+### 深度学习相关 (建议) ###
+# 屏蔽模型权重文件，通常体积很大且不适合 Git 管理
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+
+### 操作系统临时文件 ###
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### 日志与临时文件 ###
+*.log
+*.tmp
+*.temp
