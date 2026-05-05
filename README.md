@@ -44,6 +44,7 @@ Data is not included due to licensing restrictions. Please download from officia
 
 硬件配置 2：
 * Apple M4 Pro (Apple Silicon)
+
 软件配置 2：
 * macOS 26.4
 * Python 3.12
@@ -70,7 +71,7 @@ pip3 install torch --index-url https://download.pytorch.org/whl/cu128
 pip3 install torch
 
 # 不含有 CUDA 的 Linux 机器
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+pip3 install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ### ⚠️ GPU 与 CUDA 配置
