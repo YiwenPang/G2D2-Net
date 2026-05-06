@@ -1,4 +1,4 @@
-# G2D2-Net: 药物-疾病关联预测网络 (Drug-Disease Association Prediction)
+# G2D2-Net：一种面向超十万维基因特征空间的药物-疾病关联预测框架
 
 本项目基于基因组学与药理学数据，利用深度学习模型（G2D2-Net）预测药物与疾病之间的潜在关联。项目整合高维基因靶点特征，并针对十万级稀疏特征矩阵进行了工程与内存优化。
 
@@ -44,6 +44,7 @@ Data is not included due to licensing restrictions. Please download from officia
 
 硬件配置 2：
 * Apple M4 Pro (Apple Silicon)
+
 软件配置 2：
 * macOS 26.4
 * Python 3.12
@@ -70,7 +71,7 @@ pip3 install torch --index-url https://download.pytorch.org/whl/cu128
 pip3 install torch
 
 # 不含有 CUDA 的 Linux 机器
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+pip3 install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ### ⚠️ GPU 与 CUDA 配置
