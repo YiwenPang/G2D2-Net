@@ -201,11 +201,24 @@ python main.py
 ```text
 📦 G2D2-Net/
 ├── 📁 data/                              # 原始数据
-│   ├── 🧬 ctd_genes_diseases_schema.json # 自己生成的 CTD JSON 结构定义
+│   ├── 🧬 ctd_genes_diseases_schema.json # 自己生成的 CTD JSON 结构定义（无需创建）
 │   ├── 💾 CTD_genes_diseases.tsv         # CTD 数据库
-│   ├── 🧬 drugbank.xsd                   # DrugBank XML 结构定义
+│   ├── 🧬 drugbank.xsd                   # DrugBank XML 结构定义（无需下载）
 │   └── 💾 drugbank_all_full_database.xml # DrugBank 数据库
-├── 📁 figures/                           # 输出结果
+├── 📁 figures/                           # 图片集
+│   ├── 🖼️ 图1.png                        # 多热特征向量图
+│   ├── 🖼️ 图1.vsdx                       # 多热特征向量图
+│   ├── 🖼️ 图2.png                        # ReLU函数图
+│   ├── 🖼️ 图3.png                        # Sigmoid函数图
+│   ├── 🖼️ 图4.png                        # 完整多热特征向量生成图
+│   ├── 🖼️ 图4.vsdx                       # 完整多热特征向量生成图
+│   ├── 🖼️ 图5.png                        # 模型流程图
+│   ├── 🖼️ 图5.vsdx                       # 模型流程图
+│   ├── 🖼️ 图6.png                        # 模型介绍图
+│   ├── 🖼️ 图6.vsdx                       # 模型介绍图
+│   ├── 🖼️ 图7.png                        # ROC
+│   ├── 🖼️ 图8.png                        # PR
+│   ├── 🖼️ 图8.png                        # 混淆矩阵
 │   └── 🖼️ framework.png                  # 模型介绍图
 ├── 📁 output/                            # 输出结果
 │   ├── 🧾 processed_data.pkl             # 预处理数据
@@ -226,7 +239,7 @@ python main.py
 * **Test Accuracy:** 88.03%
 * **ROC-AUC:** 0.9483
 * **PR-AUC:** 0.9363
-* **F1 Score:** 0.8836  
+* **F1 Score:** 0.8836
 * **Accuracy:** 88.03%
 
 ## 🧩 8. 模型框架结构
