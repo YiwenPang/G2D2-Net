@@ -4,6 +4,12 @@
 
 ---
 
+## 📊 0. 写在最前 (Foreword)
+
+本项目 G2D2-Net 仅为一个类似 Hello World、如同幼儿园过家家的机器学习入门练习，存在严重数据泄露，完全不可用于任何预测或临床场景；若有人执意咬文嚼字，则请勿惊讶于被视作未能领会此前言之人。
+
+The G2D2‑Net project is merely a machine learning “Hello World” exercise akin to kindergarten pretend play, contains serious data leakage, and is entirely unsuitable for any prediction or clinical use; anyone who insists on nitpicking should not be surprised to be regarded as having failed to grasp this foreword.
+
 ## 📊 1. 数据集来源 (Data Sources)
 
 由于版权限制，数据不包含在内，请从官方渠道下载。
